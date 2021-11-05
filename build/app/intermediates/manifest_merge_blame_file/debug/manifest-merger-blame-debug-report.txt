@@ -1,0 +1,202 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.redditech"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:3:5-66
+14-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:3:22-64
+15
+16    <queries>
+16-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:4:3-15:13
+17        <intent>
+17-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:5:5-9:14
+18            <action android:name="android.intent.action.VIEW" />
+18-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:6:9-61
+18-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:6:17-58
+19
+20            <category android:name="android.intent.category.BROWSABLE" />
+20-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:7:9-70
+20-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:7:19-67
+21
+22            <data android:scheme="https" />
+22-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:8:9-40
+22-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:8:15-37
+23        </intent>
+24        <intent>
+24-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:10:5-14:14
+25            <action android:name="android.intent.action.VIEW" />
+25-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:6:9-61
+25-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:6:17-58
+26
+27            <category android:name="android.intent.category.APP_BROWSER" />
+27-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:12:9-72
+27-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:12:19-69
+28
+29            <data android:scheme="https" />
+29-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:8:9-40
+29-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:8:15-37
+30        </intent>
+31        <intent>
+31-->[:flutter_inappwebview] /home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-10:18
+32            <action android:name="android.support.customtabs.action.CustomTabsService" />
+32-->[:flutter_inappwebview] /home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-90
+32-->[:flutter_inappwebview] /home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:9:21-87
+33        </intent>
+34    </queries>
+35
+36    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+36-->[com.google.android.exoplayer:exoplayer-core:2.14.1] /home/kilianlecalvez/.gradle/caches/transforms-2/files-2.1/60b85d32c76f6174d43e445a6aa2cefb/jetified-exoplayer-core-2.14.1/AndroidManifest.xml:24:5-79
+36-->[com.google.android.exoplayer:exoplayer-core:2.14.1] /home/kilianlecalvez/.gradle/caches/transforms-2/files-2.1/60b85d32c76f6174d43e445a6aa2cefb/jetified-exoplayer-core-2.14.1/AndroidManifest.xml:24:22-76
+37
+38    <application
+38-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:16:4-53:19
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.5.0] /home/kilianlecalvez/.gradle/caches/transforms-2/files-2.1/347814567c8fb3becfdf858e9729d475/core-1.5.0/AndroidManifest.xml:24:18-86
+40        android:debuggable="true"
+41        android:icon="@mipmap/ic_launcher"
+41-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:18:9-43
+42        android:label="redditech" >
+42-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:17:9-34
+43        <activity
+43-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:19:9-47:20
+44            android:name="com.example.redditech.MainActivity"
+44-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:20:13-41
+45            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+45-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:23:13-163
+46            android:hardwareAccelerated="true"
+46-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:24:13-47
+47            android:launchMode="singleTop"
+47-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:21:13-43
+48            android:theme="@style/LaunchTheme"
+48-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:22:13-47
+49            android:windowSoftInputMode="adjustResize" >
+49-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:25:13-55
+50
+51            <!--
+52                 Specifies an Android theme to apply to this Activity as soon as
+53                 the Android process has started. This theme is visible to the user
+54                 while the Flutter UI initializes. After that, this theme continues
+55                 to determine the Window background behind the Flutter UI.
+56            -->
+57            <meta-data
+57-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:30:13-33:17
+58                android:name="io.flutter.embedding.android.NormalTheme"
+58-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:31:15-70
+59                android:resource="@style/NormalTheme" />
+59-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:32:15-52
+60            <!--
+61                 Displays an Android View that continues showing the launch screen
+62                 Drawable until Flutter paints its first frame, then this splash
+63                 screen fades out. A splash screen is useful to avoid any visual
+64                 gap between the end of Android's launch screen and the painting of
+65                 Flutter's first frame.
+66            -->
+67            <meta-data
+67-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:39:13-42:17
+68                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+68-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:40:15-79
+69                android:resource="@drawable/launch_background" />
+69-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:41:15-61
+70
+71            <intent-filter>
+71-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:43:13-46:29
+72                <action android:name="android.intent.action.MAIN" />
+72-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:44:17-68
+72-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:44:25-66
+73
+74                <category android:name="android.intent.category.LAUNCHER" />
+74-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:45:17-76
+74-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:45:27-74
+75            </intent-filter>
+76        </activity>
+77        <!--
+78             Don't delete the meta-data below.
+79             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+80        -->
+81        <meta-data
+81-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:50:9-52:33
+82            android:name="flutterEmbedding"
+82-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:51:13-44
+83            android:value="2" />
+83-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:52:13-30
+84
+85        <activity
+85-->[:flutter_inappwebview] /home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:14:9-17:47
+86            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+86-->[:flutter_inappwebview] /home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-104
+87            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+87-->[:flutter_inappwebview] /home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-137
+88            android:theme="@style/AppTheme" />
+88-->[:flutter_inappwebview] /home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-44
+89        <activity
+89-->[:flutter_inappwebview] /home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-20:55
+90            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+90-->[:flutter_inappwebview] /home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-112
+91            android:theme="@style/ThemeTransparent" />
+91-->[:flutter_inappwebview] /home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-52
+92
+93        <receiver android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver" />
+93-->[:flutter_inappwebview] /home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:22:9-120
+93-->[:flutter_inappwebview] /home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:22:19-117
+94
+95        <meta-data
+95-->[:flutter_inappwebview] /home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:24:9-26:36
+96            android:name="io.flutter.embedded_views_preview"
+96-->[:flutter_inappwebview] /home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-61
+97            android:value="true" />
+97-->[:flutter_inappwebview] /home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/build/flutter_inappwebview/intermediates/library_manifest/debug/AndroidManifest.xml:26:13-33
+98
+99        <activity
+99-->[:url_launcher] /home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+100            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+100-->[:url_launcher] /home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+101            android:exported="false"
+101-->[:url_launcher] /home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+102            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+102-->[:url_launcher] /home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/build/url_launcher/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+103        <activity
+103-->[net.openid:appauth:0.10.0] /home/kilianlecalvez/.gradle/caches/transforms-2/files-2.1/93d55d316709e1008e73434fc6f59bd4/jetified-appauth-0.10.0/AndroidManifest.xml:35:9-39:77
+104            android:name="net.openid.appauth.AuthorizationManagementActivity"
+104-->[net.openid:appauth:0.10.0] /home/kilianlecalvez/.gradle/caches/transforms-2/files-2.1/93d55d316709e1008e73434fc6f59bd4/jetified-appauth-0.10.0/AndroidManifest.xml:36:13-78
+105            android:exported="false"
+105-->[net.openid:appauth:0.10.0] /home/kilianlecalvez/.gradle/caches/transforms-2/files-2.1/93d55d316709e1008e73434fc6f59bd4/jetified-appauth-0.10.0/AndroidManifest.xml:37:13-37
+106            android:launchMode="singleTask"
+106-->[net.openid:appauth:0.10.0] /home/kilianlecalvez/.gradle/caches/transforms-2/files-2.1/93d55d316709e1008e73434fc6f59bd4/jetified-appauth-0.10.0/AndroidManifest.xml:38:13-44
+107            android:theme="@style/Theme.AppCompat.Translucent.NoTitleBar" />
+107-->[net.openid:appauth:0.10.0] /home/kilianlecalvez/.gradle/caches/transforms-2/files-2.1/93d55d316709e1008e73434fc6f59bd4/jetified-appauth-0.10.0/AndroidManifest.xml:39:13-74
+108        <activity
+108-->[net.openid:appauth:0.10.0] /home/kilianlecalvez/.gradle/caches/transforms-2/files-2.1/93d55d316709e1008e73434fc6f59bd4/jetified-appauth-0.10.0/AndroidManifest.xml:40:9-51:20
+109            android:name="net.openid.appauth.RedirectUriReceiverActivity"
+109-->[net.openid:appauth:0.10.0] /home/kilianlecalvez/.gradle/caches/transforms-2/files-2.1/93d55d316709e1008e73434fc6f59bd4/jetified-appauth-0.10.0/AndroidManifest.xml:41:13-74
+110            android:exported="true" >
+110-->[net.openid:appauth:0.10.0] /home/kilianlecalvez/.gradle/caches/transforms-2/files-2.1/93d55d316709e1008e73434fc6f59bd4/jetified-appauth-0.10.0/AndroidManifest.xml:42:13-36
+111            <intent-filter>
+111-->[net.openid:appauth:0.10.0] /home/kilianlecalvez/.gradle/caches/transforms-2/files-2.1/93d55d316709e1008e73434fc6f59bd4/jetified-appauth-0.10.0/AndroidManifest.xml:43:13-50:29
+112                <action android:name="android.intent.action.VIEW" />
+112-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:6:9-61
+112-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:6:17-58
+113
+114                <category android:name="android.intent.category.DEFAULT" />
+114-->[net.openid:appauth:0.10.0] /home/kilianlecalvez/.gradle/caches/transforms-2/files-2.1/93d55d316709e1008e73434fc6f59bd4/jetified-appauth-0.10.0/AndroidManifest.xml:46:17-76
+114-->[net.openid:appauth:0.10.0] /home/kilianlecalvez/.gradle/caches/transforms-2/files-2.1/93d55d316709e1008e73434fc6f59bd4/jetified-appauth-0.10.0/AndroidManifest.xml:46:27-73
+115                <category android:name="android.intent.category.BROWSABLE" />
+115-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:7:9-70
+115-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:7:19-67
+116
+117                <data android:scheme="com.example.redditech" />
+117-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:8:9-40
+117-->/home/kilianlecalvez/code/actual/B-DEV-501-PAR-5-1-redditech-kilian.le-calvez/redditech/android/app/src/main/AndroidManifest.xml:8:15-37
+118            </intent-filter>
+119        </activity>
+120    </application>
+121
+122</manifest>
