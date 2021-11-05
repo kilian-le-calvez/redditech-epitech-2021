@@ -1,16 +1,22 @@
 # redditech
 
-A new Flutter project.
+This project's goal is to make a clone app of Reddit. This app use the
+Reddit API. The application is developped in flutter.
 
-## Getting Started
+## Launch the project
 
-This project is a starting point for a Flutter application.
+Connect a movile device to your compute via USB.
+On your device, authorize the File Protocol Transfert.
+Launch the command ```flutter run``` at the root of the directory.
+It will build an .apk file on your phone.
 
-A few resources to get you started if this is your first Flutter project:
+You can now enjoy the app. Be sure to already have an Reddit Account,
+and, connect to the application via username and password.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+The application will ask to acceed to your basics reddit informations.
+You must accept it to use the application at its full potential.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+For any informations please send a mail to :
+kilian.le-calvez@epitech.eu (until 2024)
+ or
+kilianlecalvez.contact@gmail.com
